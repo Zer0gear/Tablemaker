@@ -1,20 +1,18 @@
 import { useState } from 'react';
 import { BsList } from 'react-icons/bs';
-
-const headerStyle = {
-    display: 'flex',
-    flexDirection: 'row',
-    background: '#3E3A3A',
-    padding: '.5rem',
-    align: 'left'
-}
+import styles from './Header.module.css';
 
 
 const Header = () => {
     const [iconColor,setColor] = useState('grey');
+    const [showDropdown, setShowDropdown] = useState(true);
+    const handleClickIcon = () => {
+        setShowDropdown(!showDropdown)
+    }
+    
     return (
-        <div style={headerStyle}>
-            <div style={{padding: '.5em'}} onMouseOver={() => setColor('white')} onMouseOut={() => setColor('grey')}>
+        <div className={styles.header}>
+            <div className={styles.icon} onMouseOver={() => setColor('white')} onMouseOut={() => setColor('grey')} onClick={() => handleClickIcon()}>
                 <BsList size='2.5em' color={iconColor}/>
             </div>
         </div>

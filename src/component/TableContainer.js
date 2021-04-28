@@ -1,13 +1,13 @@
 import {useEffect} from "react"
-
-const containerStyle = {
-    padding: '2em',
-}
+import ButtonContainer from "./ButtonContainer.js"
+import Table from "./Table.js"
+import styles from "./TableContainer.module.css"
 
 const TableContainer = () => {
     return(
-        <div style={containerStyle}>
-
+        <div className={styles.tablecontainer}>
+            <ButtonContainer/>
+            <Table/>
         </div>
     )
 }

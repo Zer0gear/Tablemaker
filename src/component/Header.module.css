@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    background: #3E3A3A;
+    padding: .5rem;
+}
+
+.icon {
+    padding: .5em;
+}

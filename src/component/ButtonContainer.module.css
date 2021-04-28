@@ -1,0 +1,16 @@
+.buttoncontainer {
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.button {
+    margin: 1em;
+    min-width: 100px;
+    background: rgb(38, 201, 255);
+    padding: 1em;
+    border-radius: 25px;
+}
+
+#leftbutton {
+    margin-left: 5em;
+}
