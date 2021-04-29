@@ -1,3 +1,26 @@
+# Feature checklist
+To track progress of features
+## Header 
+### "Dropdown"
+Inside dropdown: "Add New Table", "Import Table", "Load Table"
+### "Add New Table"
+Customize initiative number of row and columns
+
+### "Import Table" 
+Import .csv file
+
+### "Load Table"
+Load data from backend
+
+## Table
+### "Add Row" (Complete)
+### "Add Column" (Complete)
+### "Edit Table Value" (Complete)
+### "Delete Row"
+### "Delete Column"
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +91,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
