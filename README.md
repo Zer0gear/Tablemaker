@@ -1,34 +1,34 @@
 # Feature checklist
 To track progress of features
 ## Header 
-### "Dropdown"
+### `Dropdown`
 (Inside dropdown: "Add New Table", "Import Table", "Load Table")
-### "Add New Table"
+### `Add New Table`
 (Customize initiative number of row and columns)
 
-### "Import Table" 
+### `Import Table` 
 (Import .csv file)
 
-### "Load Table"
+### `Load Table`
 (Load data from backend)
 
 ## Table
-### * "Add Row" (Complete) 
+### * `Add Row` (Complete) 
 Click "เพิ่มแถว" Button to add row
-### * "Add Column" (Complete)
+### * `Add Column` (Complete)
 Click "เพิ่มคอลัมน์" Button to add columns
-### *"Delete Row" (Complete)
+### *`Delete Row` (Complete)
 Click X icon to delete row
-### "Edit Table Value" (Complete)
+### "`edit Table Value` (Complete)
 Click the block to edit 
-### "Delete Column"
-### "Change [Edit Table Value] feature"
+### `Delete Column`
+### `Change [Edit Table Value] feature`
 Use modal instead of propmt
-###
-'*' feature is main feature. 
+
+Note: '*' feature is main feature. 
 last update: 4/29/2021
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+************************************************************************************************************************
 
 # Getting Started with Create React App
 
