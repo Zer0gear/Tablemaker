@@ -24,9 +24,10 @@ Click the block to edit
 ### "Delete Column"
 ### "Change [Edit Table Value] feature"
 Use modal instead of propmt
-
+###
 '*' feature is main feature. 
 last update: 4/29/2021
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Getting Started with Create React App
