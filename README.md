@@ -19,7 +19,7 @@ Click "เพิ่มแถว" Button to add row
 Click "เพิ่มคอลัมน์" Button to add columns
 ### *`Delete Row` (Complete)
 Click X icon to delete row
-### "`edit Table Value` (Complete)
+### `"edit Table Value` (Complete)
 Click the block to edit 
 ### `Delete Column` (In Progress)
 ### `Change [Edit Table Value] feature` (In Progress)
