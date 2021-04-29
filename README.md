@@ -22,9 +22,8 @@ Click X icon to delete row
 ### "Edit Table Value" (Complete)
 Click the block to edit 
 ### "Delete Column"
-### "Selected Block Hover"
-### "Change Edit Table Value"
-Use modal instead propmt
+### "Change [Edit Table Value] feature"
+Use modal instead of propmt
 
 '*' feature is main feature. 
 last update: 4/29/2021
