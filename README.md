@@ -2,23 +2,32 @@
 To track progress of features
 ## Header 
 ### "Dropdown"
-Inside dropdown: "Add New Table", "Import Table", "Load Table"
+(Inside dropdown: "Add New Table", "Import Table", "Load Table")
 ### "Add New Table"
-Customize initiative number of row and columns
+(Customize initiative number of row and columns)
 
 ### "Import Table" 
-Import .csv file
+(Import .csv file)
 
 ### "Load Table"
-Load data from backend
+(Load data from backend)
 
 ## Table
-### "Add Row" (Complete)
-### "Add Column" (Complete)
+### * "Add Row" (Complete) 
+Click "เพิ่มแถว" Button to add row
+### * "Add Column" (Complete)
+Click "เพิ่มคอลัมน์" Button to add columns
+### *"Delete Row" (Complete)
+Click X icon to delete row
 ### "Edit Table Value" (Complete)
-### "Delete Row"
+Click the block to edit 
 ### "Delete Column"
+### "Selected Block Hover"
+### "Change Edit Table Value"
+Use modal instead propmt
 
+'*' feature is main feature. 
+last update: 4/29/2021
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Getting Started with Create React App
