@@ -2,7 +2,7 @@
 import ButtonContainer from "./ButtonContainer.js"
 import Table from "./Table.js"
 import styles from "./TableContainer.module.css"
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 
 
 const createEmptyArray = (row, col) => {
@@ -14,17 +14,17 @@ const createEmptyArray = (row, col) => {
         }
        arr.push(subarr)
     }
-    console.log(arr)
     return arr
 }
 
-const TableContainer = () => {
-    const [row,setRow] = useState(1);
-    const [col,setCol] = useState(1); 
-    const [data, setData] = useState((row!=0&&col!=0) ? createEmptyArray(row, col) : [])
-
+const TableContainer = ({startSize}) => {
+    
+    const [row,setRow] = useState(startSize[0]);
+    const [col,setCol] = useState(startSize[1]); 
+    const [data, setData] = useState((row!==0&&col!==0) ? createEmptyArray(row, col) : [])
+    
     const addRow = () => {
-        if(data.length!=0){
+        if(data.length!==0){
             let tmp = [...data]
             let arr = []
             for(let i = 0; i<tmp[0].length; i++){
@@ -41,7 +41,7 @@ const TableContainer = () => {
     }
     
     const addCol = () => {
-        if(data.length!=0){
+        if(data.length!==0){
             let tmp = [...data]
             for(let i = 0; i<tmp.length; i++){
                 tmp[i].push('')
@@ -62,6 +62,13 @@ const TableContainer = () => {
         setData(tmp)
     }
 
+    useEffect(() => {
+        setRow(startSize[0])
+        setCol(startSize[1])
+        setData(createEmptyArray(startSize[0], startSize[1]))
+    }, [startSize]);
+
+    console.log("TableContainer",data)
     return(
         <div className={styles.tablecontainer}>
             <ButtonContainer addRow={addRow} addCol={addCol}/>

@@ -6,9 +6,8 @@ const Table = ({arr, setArr, deleteRow}) => {
     const [, updateState] = useState();
     const forceUpdate = useCallback(() => updateState({}), []);
     const [data, setData] = useState(arr);
-
     const handleClick = (e) => {
-        console.log(e)
+
         const id = e.target.id;
         let res = id.split('-');
         const row = parseInt(res[1]);
@@ -23,12 +22,10 @@ const Table = ({arr, setArr, deleteRow}) => {
 
     
     const changeColor = (e,color) => {
-        console.log(e)
         e.target.bgColor = color
     }
 
     const handleDeleteRow = (e) => {
-        console.log(e)
         const id = e.target.id;
         let res = id.split('-');
         const row = parseInt(res[1]);
@@ -40,6 +37,10 @@ const Table = ({arr, setArr, deleteRow}) => {
       }, [arr]);
 
     return(
+        <>
+        {
+            data.length===0||data[0].length===0 ? 
+            <img src={'/notable.png'} alt=""/> :
             <table className={styles.table}>
                 {
                     data.map((r,rindex) => 
@@ -57,6 +58,8 @@ const Table = ({arr, setArr, deleteRow}) => {
                     )
                 }
             </table>
+        }
+        </>
     )
 }
 

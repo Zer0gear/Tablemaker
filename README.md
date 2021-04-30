@@ -1,10 +1,10 @@
 # Feature checklist
 To track progress of features
 ## Header 
-### `Dropdown`(In Progress)
-(Inside dropdown: "Add New Table", "Import Table", "Load Table")
-### `Add New Table`(In Progress)
-(Customize initiative number of row and columns)
+### `Dropdown`(Complete)
+Inside dropdown: "Add New Table", "Import Table", "Load Table"
+### `Add New Table`(Complete)
+Click "ตารางใหม่" to add new table.
 
 ### `Import Table` (In Progress)
 (Import .csv file)
@@ -12,21 +12,23 @@ To track progress of features
 ### `Load Table` (In Progress)
 (Load data from backend)
 
+### `Export Table` (In Progress)
+(Export .csv file)
 ## Table
 ### * `Add Row` (Complete) 
-Click "เพิ่มแถว" Button to add row
+Click "เพิ่มแถว" Button to add row.
 ### * `Add Column` (Complete)
-Click "เพิ่มคอลัมน์" Button to add columns
+Click "เพิ่มคอลัมน์" Button to add columns.
 ### *`Delete Row` (Complete)
-Click X icon to delete row
+Click X icon to delete row.
 ### `edit Table Value` (Complete)
-Click the block to edit 
+Click the block to edit.
 ### `Delete Column` (In Progress)
 ### `Change [Edit Table Value] feature` (In Progress)
-(Use modal instead of propmt)
+(Use modal instead of propmt.)
 
 Note: '*' feature is main feature. 
-last update: 4/29/2021
+last update: 4/30/2021
 
 ************************************************************************************************************************
 
